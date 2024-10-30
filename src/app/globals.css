@@ -2,20 +2,189 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.header{
+  display: flex; 
+  justify-content: space-between; 
+  padding:16px;
+  background-color: gray;
+  color: white;
+  font-size: large;
+}
+.header1{
+  margin-left: 50px;
+  font-family: serif;
+  font-weight: bold;
+}
+.header2{
+  display:flex; 
+  gap: 32px; 
+  margin-right:150px;
+  cursor: pointer;
+}
+.forimg {
+  background-image:url(../../public/background.png);
+  height: 900px;
+  background-attachment: fixed;
+}
+.home h1{
+  font-size: 50px ;
+  color: rgba(0, 0, 0, 0.856);
+  padding-top: 250px;
+  padding-left: 30px;
+}
+.home h1 span{
+  color: rgba(255, 255, 255, 0.856);
+}
+.about1{
+  margin-top: 80px;
+  margin-right: 64px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-left: 30px;
+
+}
+.abouth1{
+  font-weight: bold;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.521);
+}
+.aboutp{
+  font-size: 20px;
+  line-height: 28px;
+}
+#about{
+  display: flex;
+}
+.btn{
+  background-color: rgba(36, 34, 34, 0.603);
+  color: white;
+  width: 15%;
+  height: 40px;
+  margin-top: 20px;
+}
+.img{
+  margin-top: 70px;
+  margin-right: 50px;
+}
+.labl{
+  line-height: 28px;
+  font-size: 14px;
+  line-height: 20px;
+  margin-right: 20px;
+  margin-left: 30px;
+}
+.inpt{
+  
+  background-color: #e5e7eb;
+  --tw-bg-opacity: 0.5;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: #d1d5db;
+  background-color: #ffffff;
+
+}
+.main{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 96px;
+}
+.main1{
+  margin-top: 40px;
+  margin-left: 500px;
+  font-size:xx-large;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.705);
+  margin-bottom: 40px;
+}
+.name{
+  position: relative;
+  margin-bottom: 16px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.name1{
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(75 85 99);
+}
+.email{
+  position: relative;
+  margin-bottom: 16px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.email1{
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(75 85 99);
+}
+.name2{
+  width: 100%;
+  background-color: rgb(255 255 255);
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 16px;
+  line-height: 24px ;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 4px ;
+  padding-bottom:4px;
+  padding-left:12px ;
+  padding-right:12px;
+  line-height:32px ;
+  transition-duration: 200ms;
+  background-color: rgba(128, 128, 128, 0.048);
+}
+.email2{
+  width: 100%;
+  background-color: rgb(255 255 255);
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 16px;
+  line-height: 24px ;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 4px ;
+  padding-bottom:4px;
+  padding-left:12px ;
+  padding-right:12px;
+  line-height:32px ;
+  transition-duration: 200ms;
+  background-color: rgba(128, 128, 128, 0.048);
+}
+.msg{
+  position: relative;
+  margin-bottom: 16px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+.msg1{
+  line-height: 28px;
+  font-size: 14px;
+  color: rgb(75 85 99);
+}
+.msg2{
+  width: 100%;
+  background-color: rgb(255 255 255);
+  border-radius: 4px;
+  border-width: 1px;
+  font-size: 16px;
+  line-height: 24px ;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  padding-top: 4px ;
+  padding-bottom:4px;
+  padding-left:12px ;
+  padding-right:12px;
+  line-height:32px ;
+  transition-duration: 200ms;
+  background-color: rgba(128, 128, 128, 0.048);
+}
+.btn2{
+  background-color: rgba(36, 34, 34, 0.747);
+  color: white;
+  width: 15%;
+  height: 40px;
+  margin-left: 500px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
